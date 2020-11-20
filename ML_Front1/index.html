@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Project </title>
+</head>
+<body >
+    <div id="container" >
+ <form method = "post">
+    <h2>Predictive analysis</h2>
+    <h3>Year</h3>
+    <input id = "yr"type = "date" >
+    <h3>What is the Showroom Price?(In Lakhs) </h3>
+    <input type = "text" placeholder = "Price in Lakhs" />
+    <h3>How many Kilometers Drived?</h3>
+    <input type = "text" placeholder = "In Kilometers" />
+    <h3>How much Owners Previously had the car?(0 or 1 or 3)</h3>
+    <input type = "text" placeholder = "Number" />
+    <h3>What is the Fuel type?</h3> 
+    <select id="x">
+        <option>Petrol</option>
+        <option>Diesel</option>
+        <option>CNG</option>
+    </select>  
+    
+    <h3>Are you Dealer or Individual?</h3>
+    <select id="x">
+        <option>Dealer</option>
+        <option>Individual</option>
+    </select>    
+    <h3>Transmission Type</h3>
+    <select id ="x">
+        <option>Manual Car</option>
+        <option>Automatic Car</option>
+    </select><br><br> <br>
+    <button id= "sub" type = "submit"/><b>Submit </b> </button><br>
+    <a>Submit to Calculate the Selling Price</a>
+    <br>
+    </form>
+    <h4>{{Prediction_text}}</h4>
+</div>
+    
+</body>
+<footer>
+</footer>   
+</html>        
